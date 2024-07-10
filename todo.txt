@@ -1,0 +1,29 @@
+replace the path of a specific sample/plugin in a project or a directory containing projects (useful when renaming a file)
+replace the prefix of a path (useful when moving a folder)
+probably edit every line individually and print what line was changed in what file
+overwrite or save to another directory
+
+guess the scale from marked semitones
+
+export project notes to html (add the lmms default color background)
+
+backup clean up
+check for every project.mmpz if it has an identical (same content/hash) project.mmpz.bak delete it
+nvm i don't think hash will work because of the order of xml attributes that randomizes with each save
+i think i will just compare last modified date/+file size
+
+make functions for opening and saving files so i don't repeat the same code in every new tool
+
+randomize automation clip based on min/max or user given values
+
+humanizer tool
+    input: xpt(z) file (midi clip)
+    set minimum and maximum humanization movement (offset)
+    option to not humanize notes in every customizable interval (default: bar)
+    when multiple notes are played in the same time (chords)
+        humanize all notes with the same value
+        humanize each note with a random value
+        strum:
+            strum up
+            strum down
+            strum random direction each chord
