@@ -31,10 +31,18 @@ python colorize.py -i file.mmpz -c '#000000 #ffffff' --overwrite
 
 ## [extract fx](extract_fx.py)
 
-extracts the effects from tracks with effects to an fx channel
+extract the effects from tracks with effects to an fx channel
 
 ```sh
 python extract_fx.py -i file.mmpz -o file2.mmpz
+```
+
+## [height](height.py)
+
+change the height of the tracks
+
+```sh
+python height.py -i file.mmpz -ht 64 --overwrite
 ```
 
 ## [chord finder](chord_finder.py)
